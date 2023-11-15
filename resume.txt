@@ -1,0 +1,50 @@
+<span id="b">$</span> defi yuboruan.txt
+
+i'm an entrepreneur, investor, engineer and <span id="c"><a href="https://parax.ai/">defi</a></span> fanatic.
+
+<span id="b"><b>my early days</b></span>
+<li>I began my journey with coding when I was just six years old. Embedded programming caught my interest early on, fueling a passion for deconstructing electronics around my home to create robots capable of trailing humans. During my middle school years, I gained a reputation as a bit of a hacker, frequently managing to bypass the school's computer systems. To further my skills in programming and robotics, I attended numerous extracurricular courses. This dedication led me to participate in a variety of competitions, including the prestigious <span id="c"><a href="https://imaginecup.microsoft.com/en-us">Microsoft Imagine Cup</a></span>, among others.</li>
+
+
+<span id="b"><b>i co-founded</b></span>
+<li>In 2013, at just 17, I made the decision to leave high school and channel my energies into founding <span id="c"><a href="https://m.trjcn.com/ceo/12299.html">Alisimba</a></span>, where I took on the role of CEO. My vision was to create an educational platform that specialized in equipping children with financial literacy—a decision that garnered the support and investment from esteemed institutional investors, including <span id="c"><a href="https://m.trjcn.com/ceo/12299.html">EBG Group</a></span>. After two years at the helm, Alisimba caught the attention of, and was subsequently acquired by, TopHacker Group.</li>
+
+<li>By 2016, I had co-founded <span id="c"><a href="https://skylightinv.com/">Skylight Investment</a></span> with an ambition to drive innovation by providing capital to Ph.D. students who possess profound technical knowledge and hold patents. We were successful in securing $10 million in funding from a company listed on the NYSE, which furthered our mission to help these brilliant minds make an impact on the global market.</li>
+
+<li>During my time co-founding 8 Decimal Capital, our fund received significant recognition within the financial sector. Forbes and 36Kr featured us, highlighting our position as one of the top 10 crypto funds. Forbes went on to describe 8 Decimal Capital as a leading blockchain investment firm in China, while Token Metrics ranked us as the second out of the 51 active crypto funds they assessed. Furthermore, the Tsinghua X-lab Research Center acknowledged us as one of the top 20 Blockchain VCs in China, an honor that reflected our team's dedication and strategic vision.</li>
+
+<li>In 2021, I founded Parallel Finance, with the aim of offering a suite of services such as Lending, Trading, Staking, and derivatives across multiple blockchain networks. This venture attracted investment from SEQUOIA, a firm renowned for its global venture capital expertise.</li>
+
+<li>Come June 2022, I launched ParaSpace—a cutting-edge platform that empowers users to leverage their NFTs as collateral to secure loans from capital providers. This endeavor represents my commitment to bridging the gap between traditional finance and the burgeoning world of digital assets.</li>
+
+
+<span id="b"><b>more experiences</b></span>
+<li>I spent a few months at DHVC researching blockchain startups. That's how I initially got into crypto space. I was part of the team that helped invest in Kyber Network, 0xproject, and many others. The two founding partners of DHVC are also early LPs and supporters of 8 Decimal Capital.</li>
+
+<li>After my internship at Danhua Capital (DHVC), which is known as one of the largest cross-border VCs based in Silicon Valley, I founded 8 Decimal Capital in 2017, focusing on investments in blockchain and DeFi. My firm was one of the early investors in Solana, yielding a return of over 100x. We also invested in OnDeck, ZeroHash, Chia Network, Chainlink, Polkadot, Certik, and others. We grew to have more than 40 portfolio companies with an AUM of $60 million.</li>
+
+<li>Additionally, I spent half a year at a16z-backed TrustToken as a Solidity developer and investment advisor. This experience paved the way for my career as a blockchain company founder. At TrustToken, I helped build Trufi’s governance and credit line contracts. Trufi, at its peak, initiated over $2B worth of loans to crypto institutions.<li>
+
+<li>In 2017, I joined Otter.ai as an engineering intern. There, I helped build and complete the data pipeline, contributing to the company's position as the top AI speech-to-text transcription service.</li>
+
+<li>I also completed a work trial at the prominent crypto VC firm Polychain Capital in early 2021. I was part of the investment team, scouting for crypto investment opportunities. Eventually, I chose to start Parallel Finance instead of joining Polychain full-time. Nevertheless, Polychain believed in my vision and wrote the first check to Parallel Finance.</li>
+
+
+<span id="b"><b>awards</b></span>
+<li>In the dynamic landscape of China's technology sector, I am proud to have been recognized for my contributions and innovations. With 13 major science and technology invention awards to my name and 5 patents under my belt, I've been fortunate to achieve first place in prestigious competitions such as the Microsoft Imagine Cup, the German Nuremberg Invention Competition, and the National Robotics Competition.</li>
+<li>My journey has also been marked by being honored as one of the top 30 under 30 Chinese American entrepreneurs. This recognition was a testament to the entrepreneurial spirit that has driven me from the outset. Additionally, I clinched first place in the Ministry of Industry and Information Technology Mobile Internet Competition, which highlighted my commitment to advancing mobile technology.</li>
+<li>Beyond the realm of competition and entrepreneurship, my work has been acknowledged with the China Education Online Public Welfare Charity Award, an accolade that underscores my dedication to educational philanthropy and the betterment of society through technology.</li>
+
+<span id="b"><b>education</b></span>
+<li>I attended one of the top science and engineering <span id="c"><a href="https://en.wikipedia.org/wiki/No.80_High_School_of_Beijing">high schools</a></span> in Beijing but dropped out to start Alisimba at grade 11. In 2016, I briefly attended <span id="c"><a href="https://www.bu.edu/">Boston University</a></span> for a quarter andI decided to work on <span id="c"><a href="https://www.8dcapital.com/">8 Decimal Capital</a></span> full time. Eventually I landed myself at <span id="c"><a href="https://www.stanford.edu/">Stanford University</span></a>, major in Computer Science and Economics in 2020.</li>
+
+Let’s chat <span id="c"><a href="mailto:yubo@parallel.fi">yubo@parallel.fi</a></span>
+
+<span id="b"><b>References</b></span>
+<li>Wikipedia <span id="c"><a href="https://en.wikipedia.org/wiki/Yubo_Ruan">https://en.wikipedia.org/wiki/Yubo_Ruan</a></span></li>
+<li>Sequoia Capital <span id="c"><a href="https://www.sequoiacap.com/founder/yubo-ruan/">https://www.sequoiacap.com/founder/yubo-ruan/</a></span></li>
+<li>8 Decimal Capital <span id="c"><a href="https://www.8dcapital.com/">https://www.8dcapital.com/</a></span></li>
+<li>Taihill (Previous Skylight Investment) <span id="c"><a href="https://taihill.vc/">https://taihill.vc/</a></span></li>
+<li>Parallel Finance <span id="c"><a href="https://parallel.fi/">https://parallel.fi/</a></span></li>
+<li>ParaSpace <span id="c"><a href="https://www.paraspace.tech/">https://www.paraspace.tech/</a></span></li>
+<li>ParaX <span id="c"><a href="https://parax.ai/">https://parax.ai/</a></span></li>
