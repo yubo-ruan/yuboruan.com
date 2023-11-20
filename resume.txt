@@ -35,10 +35,11 @@ i'm an entrepreneur, investor, engineer and <span id="c"><a href="https://parax.
 <li>My journey has also been marked by being honored as one of the top 30 under 30 Chinese American entrepreneurs. This recognition was a testament to the entrepreneurial spirit that has driven me from the outset. Additionally, I clinched first place in the Ministry of Industry and Information Technology Mobile Internet Competition, which highlighted my commitment to advancing mobile technology.</li>
 <li>Beyond the realm of competition and entrepreneurship, my work has been acknowledged with the China Education Online Public Welfare Charity Award, an accolade that underscores my dedication to educational philanthropy and the betterment of society through technology.</li>
 
+
 <span id="b"><b>education</b></span>
 <li>I attended one of the top science and engineering <span id="c"><a href="https://en.wikipedia.org/wiki/No.80_High_School_of_Beijing">high schools</a></span> in Beijing but dropped out to start Alisimba at grade 11. In 2016, I briefly attended <span id="c"><a href="https://www.bu.edu/">Boston University</a></span> for a quarter andI decided to work on <span id="c"><a href="https://www.8dcapital.com/">8 Decimal Capital</a></span> full time. Eventually I landed myself at <span id="c"><a href="https://www.stanford.edu/">Stanford University</span></a>, major in Computer Science and Economics in 2020.</li>
 
-Let’s chat <span id="c"><a href="mailto:yubo@parallel.fi">yubo@parallel.fi</a></span>
+<p>Let’s chat <span id="c"><a href="mailto:yubo@parallel.fi">yubo@parallel.fi</a></span></p>
 
 <span id="b"><b>References</b></span>
 <li>Wikipedia <span id="c"><a href="https://en.wikipedia.org/wiki/Yubo_Ruan">https://en.wikipedia.org/wiki/Yubo_Ruan</a></span></li>
