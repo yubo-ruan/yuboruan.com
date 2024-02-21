@@ -77,7 +77,7 @@
 	accessCount:0, //times alt is pressed for Access Granted
 	deniedCount:0, //times caps is pressed for Access Denied
 	init: function(){// inizialize Hacker Typer
-		accessCountimer=setInterval(function(){Typer.updLstChr();},500); // inizialize timer for blinking cursor
+		// accessCountimer=setInterval(function(){Typer.updLstChr();},500); // inizialize timer for blinking cursor
 		$.get(Typer.file, function(data){// get the text file
 			Typer.text=data;// save the textfile in Typer.text
 			Typer.text = Typer.text.slice(0, Typer.text.length-1);
@@ -154,13 +154,13 @@
 		}
 	},
 
-	updLstChr:function(){ // blinking cursor
-		var cont=this.content(); // get console
-		if(cont.substring(cont.length-1,cont.length)=="|") // if last char is the cursor
-			$("#console").html($("#console").html().substring(0,cont.length-1)); // remove it
-		else
-			this.write("|"); // else write it
-	}
+	// updLstChr:function(){ // blinking cursor
+	// 	var cont=this.content(); // get console
+	// 	if(cont.substring(cont.length-1,cont.length)=="|") // if last char is the cursor
+	// 		$("#console").html($("#console").html().substring(0,cont.length-1)); // remove it
+	// 	else
+	// 		this.write("|"); // else write it
+	// }
 }
 
 function replaceUrls(text) {
