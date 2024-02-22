@@ -47,7 +47,6 @@ i'm an entrepreneur, investor, engineer and <span id="c"><a href="https://parax.
 <li>8 Decimal Capital <span id="c"><a href="https://www.8dcapital.com/">https://www.8dcapital.com/</a></span></li>
 <li>Taihill (Previous Skylight Investment) <span id="c"><a href="https://taihill.vc/">https://taihill.vc/</a></span></li>
 <li>Parallel Finance <span id="c"><a href="https://parallel.fi/">https://parallel.fi/</a></span></li>
-<li>ParaSpace <span id="c"><a href="https://www.paraspace.tech/">https://www.paraspace.tech/</a></span></li>
 <li>Stanford Dropout to $500 Million Business: How Yubo Ruan Built Parallel Finance <span id="c"><a href="https://nl.mashable.com/technlogy/9393/stanford-dropout-to-500-million-business-how-yubo-ruan-built-parallel-finance">https://nl.mashable.com/technlogy/9393/stanford-dropout-to-500-million-business-how-yubo-ruan-built-parallel-finance</a></span></li>
 <li>How Crypto Extraordinaire Yubo Ruan Built Parallel Finance, Now Worth $500 Million <span id="c"><a href="https://gritdaily.com/how-yubo-ruan-built-parallel-finance/">https://gritdaily.com/how-yubo-ruan-built-parallel-finance/</a></span></li>
 <li>Parallel Finance Founder Yubo Ruan on Revolutionizing DeFi with Omni-Chain Solution <span id="c"><a href="https://cryptonews.com/exclusives/parallel-finance-founder-yubo-ruan-on-revolutionizing-defi-with-omni-chain-solution.htm">https://cryptonews.com/exclusives/parallel-finance-founder-yubo-ruan-on-revolutionizing-defi-with-omni-chain-solution.htm</a></span></li>
