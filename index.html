@@ -1,191 +1,257 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Yubo Ruan</title>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WE2MPZDV47"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-WE2MPZDV47');
-</script>
-<style type="text/css">
-	body {
-		background-color: #000
-	}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yubo Ruan | Entrepreneur, Investor &amp; DeFi Builder</title>
+  <meta name="description" content="Entrepreneur and DeFi builder Yubo Ruan shares his journey building Parallel Finance, ParaSpace, 8 Decimal Capital, and more.">
+  <meta property="og:title" content="Yubo Ruan">
+  <meta property="og:description" content="Entrepreneur, investor, engineer and DeFi fanatic building Parallel Finance, ParaSpace and more.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://yuboruan.com/">
+  <meta name="twitter:card" content="summary">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WE2MPZDV47"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WE2MPZDV47');
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500&display=swap');
 
-	#console {
-		font-family: courier, monospace;
-		color: #fff;
-		width:750px;
-		margin-left:auto;
-		margin-right:auto;
-		margin-top:100px;
-		font-size:14px;
-	}
+    :root {
+      color-scheme: dark;
+      --bg: #0f0f10;
+      --bg-secondary: #141619;
+      --text-primary: #e5e6e8;
+      --text-secondary: #a7adb5;
+      --text-muted: #6c7077;
+      --link: rgba(139, 215, 255, 0.8);
+      --link-hover: #8bd7ff;
+      --divider: rgba(255, 255, 255, 0.06);
+      --max-width: 640px;
+    }
 
-	#a {
-		color: #0bc;
-	}
+    * {
+      box-sizing: border-box;
+    }
 
-  #b {
-		color: #FFA500;
-	}
+    body {
+      margin: 0;
+      font-family: "IBM Plex Serif", Georgia, serif;
+      background: radial-gradient(circle at top, var(--bg-secondary), var(--bg));
+      color: var(--text-primary);
+      display: flex;
+      justify-content: center;
+      padding: 3.5rem 1.5rem 5rem;
+      min-height: 100vh;
+      letter-spacing: 0;
+    }
 
-  #c {
-		color: #00e500;
-		text-decoration: none;
-	}
+    main {
+      width: 100%;
+      max-width: var(--max-width);
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-	#d {
-		color: #FFD700;
-	}
+    h1 {
+      font-family: "Sohne", "Inter", "Helvetica Neue", Arial, sans-serif;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+      font-size: 2.75rem;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
 
-  a:link {
-    	color: #00e500;
-    	text-decoration: underline;
-	}
+    h2 {
+      font-family: "Sohne", "Inter", "Helvetica Neue", Arial, sans-serif;
+      color: rgba(255, 255, 255, 0.92);
+      font-size: 1.4rem;
+      letter-spacing: 0.3px;
+      text-transform: lowercase;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+    }
 
-	a:visited {
-    	color: #00e500;
-    	text-decoration: none;
-	}
+    header {
+      margin-bottom: 2.5rem;
+      padding: 2rem 0;
+    }
 
-	ol {
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
+    section {
+      margin: 110px 0 70px;
+    }
 
-	li {
-	    margin-top: 0px;
-		margin-bottom: 0px;
-	}
+    section:first-of-type {
+      margin-top: 120px;
+    }
 
-</style>
-<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-<meta content="utf-8" http-equiv="encoding">
+    section + section {
+      margin-top: 110px;
+      padding-top: 0;
+    }
+
+    section + section::before {
+      content: "";
+      display: block;
+      border-top: 1px solid var(--divider);
+      margin: 48px 0;
+    }
+
+    p,
+    li {
+      line-height: 1.7;
+      font-size: 1.05rem;
+      font-weight: 400;
+      color: var(--text-primary);
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 1.5rem;
+    }
+
+    .intro {
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+
+    .secondary-text {
+      color: var(--text-secondary);
+    }
+
+    ul {
+      padding-left: 1.25rem;
+      margin: 0.6rem 0 1.5rem;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+      font-family: "Sohne", "Inter", "Helvetica Neue", Arial, sans-serif;
+      letter-spacing: -0.1px;
+      transition: color 0.2s ease;
+      font-weight: 500;
+    }
+
+    a:hover,
+    a:focus-visible {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+
+    .tagline {
+      color: var(--text-muted);
+      margin: 0 0 0.5rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .contact {
+      margin-top: 2.4rem;
+      font-family: "Sohne", "Inter", "Helvetica Neue", Arial, sans-serif;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .contact a {
+      transition: all 0.15s ease-out;
+      display: inline-block;
+    }
+
+    .contact a:hover,
+    .contact a:focus-visible {
+      color: var(--link-hover);
+      text-decoration: underline;
+      transform: translateX(2px);
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      letter-spacing: 0.2px;
+    }
+
+    .story-image {
+      display: flex;
+      justify-content: center;
+      margin: 1.5rem 0 2rem;
+    }
+
+    .story-image img {
+      max-width: 360px;
+      width: 100%;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+      filter: grayscale(1);
+      display: block;
+    }
+  </style>
 </head>
 <body>
-<script type="text/javascript">
-	var Typer={
-	text: null,
-	accessCountimer:null,
-	index:0, // current cursor position
-	speed:50, // speed of the Typer
-	file:"", //file, must be setted
-	accessCount:0, //times alt is pressed for Access Granted
-	deniedCount:0, //times caps is pressed for Access Denied
-	init: function(){// inizialize Hacker Typer
-		// accessCountimer=setInterval(function(){Typer.updLstChr();},500); // inizialize timer for blinking cursor
-		$.get(Typer.file, function(data){// get the text file
-			Typer.text=data;// save the textfile in Typer.text
-			Typer.text = Typer.text.slice(0, Typer.text.length-1);
-		});
-	},
+<main>
+  <header>
+    <p class="intro">Hi, I’m Yubo — an entrepreneur, investor, and lifelong builder based in the Bay Area. I build systems—robotic, financial, and computational—that help people live better lives, and I believe technology should empower everyone, not just the privileged few.</p>
+    <p class="secondary-text">I’m currently focused on <a href="https://parallel.fi/">Parallel Finance</a>, <a href="https://www.8dcapital.com/">8 Decimal Capital</a>, and studying AI at Stanford.</p>
+  </header>
 
-	content:function(){
-		return $("#console").html();// get console content
-	},
+  <section id="building-now">
+    <h2>01 — what i’m building now</h2>
+    <p>I founded Parallel Finance, where I raised over $30M to build one of the early lending protocols in crypto. Today, Parallel is entering a new chapter—exploring how decentralized systems can support robotics, AI, and the next generation of physical technology.</p>
+    <p class="secondary-text">Alongside Parallel, I operate 8 Decimal Capital, a fund I’ve run for eight years. It now functions as a family-office-style vehicle where I personally invest $500K–$1M into early AI and robotics teams. During its peak, the fund managed over $60M AUM and backed more than 100 companies globally. If you’re building something ambitious, I’m always open to connecting.</p>
+  </section>
 
-	write:function(str){// append to console content
-		$("#console").append(str);
-		return false;
-	},
+  <section id="story">
+    <h2>02 — how i got here</h2>
+    <p>I grew up in Beijing, where I spent most of my childhood taking apart electronics, soldering boards, and writing assembly to make small robots move across the floor. My earliest motivation was personal: my grandfather had Parkinson’s for over twenty years, and I wanted to build machines that could help him move, carry things, and stay independent.</p>
+    <div class="story-image">
+      <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20360%20240'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0%25'%20stop-color='%23f5f5f5'/%3E%3Cstop%20offset='100%25'%20stop-color='%23999999'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width='360'%20height='240'%20rx='16'%20fill='url(%23g)'/%3E%3Cpath%20d='M30%20170c50-60%20120-90%20300-70'%20stroke='%23c5c5c5'%20stroke-width='2'%20fill='none'%20opacity='0.5'/%3E%3Ccircle%20cx='120'%20cy='120'%20r='30'%20fill='none'%20stroke='%23b0b0b0'%20stroke-width='1.5'%20opacity='0.7'/%3E%3Ccircle%20cx='250'%20cy='90'%20r='18'%20fill='none'%20stroke='%23d1d1d1'%20stroke-width='1.2'%20opacity='0.6'/%3E%3C/svg%3E" alt="Sketch-like grayscale illustration">
+    </div>
+    <p class="secondary-text">Throughout my teens, I competed in—and won—national and international science and engineering competitions. At eighteen, I dropped out of high school to continue building my robotics startup. Most people didn’t take me seriously then, so I built until they had to. That company was eventually acquired.</p>
+    <p class="secondary-text">Later, I dropped out of college twice to pursue new ideas. Each decision felt risky, but each reinforced the same lesson: if you want to build something meaningful, you can’t wait for external validation—you create your own runway.</p>
+  </section>
 
-	makeAccess:function(){//create Access Granted popUp      FIXME: popup is on top of the page and doesn't show is the page is scrolled
-		Typer.hidepop(); // hide all popups
-		Typer.accessCount=0; //reset count
-		var ddiv=$("<div id='gran'>").html(""); // create new blank div and id "gran"
-		ddiv.addClass("accessGranted"); // add class to the div
-		ddiv.html("<h1>ACCESS GRANTED</h1>"); // set content of div
-		$(document.body).prepend(ddiv); // prepend div to body
-		return false;
-	},
-	makeDenied:function(){//create Access Denied popUp      FIXME: popup is on top of the page and doesn't show is the page is scrolled
-		Typer.hidepop(); // hide all popups
-		Typer.deniedCount=0; //reset count
-		var ddiv=$("<div id='deni'>").html(""); // create new blank div and id "deni"
-		ddiv.addClass("accessDenied");// add class to the div
-		ddiv.html("<h1>ACCESS DENIED</h1>");// set content of div
-		$(document.body).prepend(ddiv);// prepend div to body
-		return false;
-	},
+  <section id="why">
+    <h2>03 — why i build</h2>
+    <p>My mind rarely slows down. Ideas appear constantly, sometimes even in my sleep. I’ve never been comfortable just consuming the world—I need to create inside it.</p>
+    <p class="secondary-text">I’m drawn to first principles: physics, robotics, markets, intelligence, and the structure of reality. I want to understand how complex systems work—and how to build new ones that move society forward.</p>
+    <p class="secondary-text">My long-term ambition is simple: to build inventions that help people, that last, and that history remembers—and to make those inventions accessible to everyone on earth.</p>
+  </section>
 
-	hidepop:function(){// remove all existing popups
-		$("#deni").remove();
-		$("#gran").remove();
-	},
+  <section id="exploring">
+    <h2>04 — what i’m exploring now</h2>
+    <p>I remain deeply obsessed with robotics, physics, AI, and the intersection between digital and physical systems. I still take courses at Stanford—not for a degree, but to deepen the technical foundation I need to build things far beyond my current knowledge.</p>
+    <p class="secondary-text">I get energy from connecting with people, but many of my breakthroughs happen alone, when I’m thinking for hours, sketching ideas, or building prototypes late at night.</p>
+  </section>
 
-	addText:function(key){//Main function to add the code
-		if(key.keyCode==18){// key 18 = alt key
-			Typer.accessCount++; //increase counter
-			if(Typer.accessCount>=3){// if it's presed 3 times
-				Typer.makeAccess(); // make access popup
-			}
-		}else if(key.keyCode==20){// key 20 = caps lock
-			Typer.deniedCount++; // increase counter
-			if(Typer.deniedCount>=3){ // if it's pressed 3 times
-				Typer.makeDenied(); // make denied popup
-			}
-		}else if(key.keyCode==27){ // key 27 = esc key
-			Typer.hidepop(); // hide all popups
-		}else if(Typer.text){ // otherway if text is loaded
-			var cont=Typer.content(); // get the console content
-			if(cont.substring(cont.length-1,cont.length)=="|") // if the last char is the blinking cursor
-				$("#console").html($("#console").html().substring(0,cont.length-1)); // remove it before adding the text
-			if(key.keyCode!=8){ // if key is not backspace
-				Typer.index+=Typer.speed;	// add to the index the speed
-			}else{
-				if(Typer.index>0) // else if index is not less than 0
-					Typer.index-=Typer.speed;//	remove speed for deleting text
-			}
-			var text=Typer.text.substring(0,Typer.index)// parse the text for stripping html enities
-			var rtn= new RegExp("\n", "g"); // newline regex
+  <section id="life">
+    <h2>05 — outside of work</h2>
+    <p>I love tennis, badminton, hiking, and weight training. I also play piano—music helps me reset, think clearly, and reconnect with the part of myself that builds for joy, not pressure.</p>
+    <p class="contact">Let’s build something → <a href="mailto:yubo@parallel.fi">yubo@parallel.fi</a></p>
+  </section>
+  <script>
+    document.querySelectorAll('a').forEach(function(anchor) {
+      anchor.setAttribute('target', '_blank');
+      var href = anchor.getAttribute('href') || '';
+      if (!href.startsWith('mailto:')) {
+        anchor.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  </script>
 
-			$("#console").html(text.replace(rtn,"<br/>"));// replace newline chars with br, tabs with 4 space and blanks with an html blank
-			//window.scrollBy(0,50); // scroll to make sure bottom is always visible
-		}
-		if ( key.preventDefault && key.keyCode != 122 ) { // prevent F11(fullscreen) from being blocked
-			key.preventDefault()
-		};
-		if(key.keyCode != 122){ // otherway prevent keys default behavior
-			key.returnValue = false;
-		}
-	},
 
-	// updLstChr:function(){ // blinking cursor
-	// 	var cont=this.content(); // get console
-	// 	if(cont.substring(cont.length-1,cont.length)=="|") // if last char is the cursor
-	// 		$("#console").html($("#console").html().substring(0,cont.length-1)); // remove it
-	// 	else
-	// 		this.write("|"); // else write it
-	// }
-}
-
-function replaceUrls(text) {
-	var http = text.indexOf("https://");
-	var space = text.indexOf(".me ", http);
-	if (space != -1) {
-		var url = text.slice(http, space-1);
-		return text.replace(url, "<a href=\""  + url + "\">" + url + "</a>");
-	} else {
-	return text
-}
-}
-Typer.speed=50;
-Typer.file="./resume.txt";
-Typer.init();
-
-var timer = setInterval("t();", 30);
-function t() {
-	Typer.addText({"keyCode": 123748});
-	if (Typer.index > Typer.text.length) {
-		clearInterval(timer);
-	}
-}
-
-</script>
-<div id="console"></div>
+  <footer>
+    &copy; <script>document.write(new Date().getFullYear());</script> Yubo Ruan
+  </footer>
+</main>
 </body>
 </html>
